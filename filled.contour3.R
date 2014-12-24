@@ -38,7 +38,6 @@ filled.contour3 <-
  # par(las = las)
  # mar <- mar.orig
  #plot.new()
- # par(mar=mar)
   plot.window(xlim, ylim, "", xaxs = xaxs, yaxs = yaxs, asp = asp)
   if (!is.matrix(z) || nrow(z) <= 1 || ncol(z) <= 1) 
     stop("no proper 'z' matrix specified")

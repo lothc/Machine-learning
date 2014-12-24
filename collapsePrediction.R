@@ -24,11 +24,9 @@
 rm(list = ls())
 
 
-
 library(e1071)
 library(nnet)
 library(rpart)
-#library(kernlab)
 
 
 set.seed(100)
