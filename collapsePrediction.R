@@ -19,7 +19,7 @@
 #      $svmModelLinear: support vector machine with linear kernel
 #      $svmModelGaussian: support vector machine with Gaussian kernel
 #      $nnet3: neural network with a single 3-unit hidden layer
-
+#      $classifTree: classification tree (rpart)
 
 rm(list = ls())
 
