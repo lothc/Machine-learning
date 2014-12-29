@@ -37,7 +37,7 @@ filled.contour3 <-
  # w <- (3 + mar.orig[2]) * par("csi") * 2.54
  # par(las = las)
  # mar <- mar.orig
- #plot.new()
+ # plot.new()
   plot.window(xlim, ylim, "", xaxs = xaxs, yaxs = yaxs, asp = asp)
   if (!is.matrix(z) || nrow(z) <= 1 || ncol(z) <= 1) 
     stop("no proper 'z' matrix specified")
